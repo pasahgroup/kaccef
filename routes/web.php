@@ -27,7 +27,7 @@ Route::get('sendbasicemail', [MailController::class, 'basic_email']);
 Route::get('sendhtmlemail', [MailController::class, 'html_email']);
 Route::get('sendattachmentemail', [MailController::class, 'attachment_email']);
 
-Route::get('/kacce', function () {
+Route::get('/', function () {
     return view('index');
 });
 
