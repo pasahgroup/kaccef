@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\KacceController;
+use App\Http\Controllers\MailController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,7 +15,17 @@ use App\Http\Controllers\KacceController;
 |
 */
 
- Route::resource('/',KacceController::class);
+ //Route::resource('/',KacceController::class);
+//Route::resource('/', KacceController::class);
+
+
+// Route::get('sendbasicemail','MailController@basic_email');
+// Route::get('sendhtmlemail','MailController@html_email');
+// Route::get('sendattachmentemail','MailController@attachment_email');
+
+Route::get('sendbasicemail', [MailController::class, 'basic_email']);
+Route::get('sendhtmlemail', [MailController::class, 'html_email']);
+Route::get('sendattachmentemail', [MailController::class, 'attachment_email']);
 
 Route::get('/kacce', function () {
     return view('index');
