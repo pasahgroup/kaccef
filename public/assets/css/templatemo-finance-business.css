@@ -396,15 +396,18 @@ header .navbar {
 	height:95vh;
 } 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(/images/slide_03.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide_02.jpg);
+	background-image: url(/images/bee_slide_02.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slide_03.jpg);
+	background-image: url(/images/cooking.jpg);
+}
+.Modern-Slider .item-4 .img-fill {
+	background-image: url(/images/children.jpg);
 }
 
 .Modern-Slider .NextArrow{
