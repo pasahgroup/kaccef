@@ -14,7 +14,11 @@ class CreateKaccesTable extends Migration
     public function up()
     {
         Schema::create('kacces', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
+            $table->string('full_name');
+            $table->string('email');
+            $table->string('subject');
+            $table->string('messsage');
             $table->timestamps();
         });
     }
