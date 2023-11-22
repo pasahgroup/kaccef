@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="TemplateMo">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"> -->
+
+ <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
      <title>KACCE</title>
 
@@ -60,7 +62,7 @@ https://templatemo.com/tm-545-finance-business
 
                 <div class="col-md-2 col-xs-2">
             <!-- <a href="donate.php" class="btn btn-primary float-right">Donatex</a> -->
-            <a href="donate.php" class="btn border-button btn-success">Donate</a>
+            <a href="/donate" class="btn border-button btn-success">Donate</a>
           </div>
           </div>
         </div>
@@ -77,7 +79,7 @@ https://templatemo.com/tm-545-finance-business
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.php">Home
+                <a class="nav-link" href="/">Home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
@@ -86,15 +88,15 @@ https://templatemo.com/tm-545-finance-business
                 <a class="nav-link" href="/services">Activities</a>
               </li>  
               <li class="nav-item">
-                <a class="nav-link" href="about.php">About Us</a>
+                <a class="nav-link" href="/about">About Us</a>
               </li>  
                                        
               <li class="nav-item">
-                <a class="nav-link" href="contact.php">Contact Us</a>
+                <a class="nav-link" href="/contact">Contact Us</a>
               </li>
 
                <li class="nav-item">
-                <a class="nav-link" href="blog.php">Blog</a>
+                <a class="nav-link" href="/blog">Blog</a>
               </li>
             </ul>
           </div>
@@ -157,7 +159,7 @@ https://templatemo.com/tm-545-finance-business
               <li><a href="img/reports/S-URT-Environmental_Management_Act_2004.pdf" target="_blank">Sheria ya usimamizi wa mazingira ya mwaka 2004 Na.20: Download</a></li>
                   </ul>
                   <hr>
-                   <a href="donate.php" class="btn border-button btn-success">Donate</a>
+                   <a href="/donate" class="btn border-button btn-success">Donate</a>
           </div>
                  
           <div class="col-md-4 footer-item last-item">
@@ -192,7 +194,7 @@ https://templatemo.com/tm-545-finance-business
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="btn btn-primary float-right">Send Message2</button>
+                      <button type="submit" id="form-submit" class="btn btn-primary float-right">Send Message</button>
                     </fieldset>
                   </div>
                 </div>

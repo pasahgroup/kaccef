@@ -35,3 +35,12 @@ Route::get('/entrepreneur', function () {
 Route::get('/children', function () {
     return view('children');
 });
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/donate', function () {
+    return view('donate');
+});

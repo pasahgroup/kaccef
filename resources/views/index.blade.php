@@ -17,7 +17,7 @@
                 <div class="text-content">                
                     <h4>Tree Planting</h4>
                   <p>This finance HTML template is 100% free of charge provided by TemplateMo for everyone. This is a multiple-page version with different HTML pages. <a href="one-page.html">One-page version</a> is available as of 2021 February.</p>
-                  <a href="tree.php" class="filled-button">Read more</a>
+                  <a href="/tree" class="filled-button">Read more</a>
                 </div>
             </div>
           </div>
@@ -28,7 +28,7 @@
                 <div class="text-content">
                    <h4>Bee Keeping</h4>
                   <p>You are allowed to use this template for your company websites. You are NOT allowed to re-distribute this template ZIP file on any template download website. Please contact TemplateMo for more detail.</p>
-                  <a href="bee.php" class="filled-button">Read more</a>
+                  <a href="/bee" class="filled-button">Read more</a>
                 </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
                 <div class="text-content">
                   <h4>Entrepreneurship</h4>
                   <p>You can download, edit and use this layout for your business website. Phasellus lacinia ac sapien vitae dapibus. Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</p>
-                  <a href="entrepreneur.php" class="filled-button">Read more</a>
+                  <a href="/entrepreneur" class="filled-button">Read more</a>
                 </div>
             </div>
           </div>
@@ -50,7 +50,7 @@
                 <div class="text-content">
                   <h4>Vulnarable Children</h4>
                   <p>You can download, edit and use this layout for your business website. Phasellus lacinia ac sapien vitae dapibus. Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</p>
-                  <a href="children.php" class="filled-button">Read more</a>
+                  <a href="/children" class="filled-button">Read more</a>
                 </div>
             </div>
           </div>
