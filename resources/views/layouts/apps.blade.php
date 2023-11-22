@@ -194,7 +194,7 @@ https://templatemo.com/tm-545-finance-business
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="btn btn-primary float-right">Send Message</button>
+                      <button type="submit" id="form-submit" class="btn btn-primary float-right">Send Message2</button>
                     </fieldset>
                   </div>
                 </div>
