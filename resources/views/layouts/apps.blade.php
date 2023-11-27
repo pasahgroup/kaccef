@@ -197,12 +197,10 @@ https://templatemo.com/tm-545-finance-business
                       <button type="submit" id="form-submit" class="btn btn-primary float-right">Send Message</button>
                     </fieldset>
                   </div>
-                </div>
-
-
-          
+                </div>        
               </form>
             </div>
+            
           </div>
         </div>
       </div>
