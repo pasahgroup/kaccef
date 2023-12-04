@@ -299,9 +299,13 @@
           <div class="col-md-4 col-sm-4 padding-top-10">
             <a href="javascript:;">Privacy Policy</a> | <a href="javascript:;">Terms of Service</a>
           </div>
+
+          <div class="col-md-3 col-sm-3 padding-top-10">
+            <a href="javascript:;">+255 718 606 019</a> | <a href="javascript:;">info@kacce.or.tz</a>
+          </div>
           <!-- END COPYRIGHT -->
           <!-- BEGIN PAYMENTS -->
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-1 col-sm-1">
             <ul class="social-footer list-unstyled list-inline pull-right">
               <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
               <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
