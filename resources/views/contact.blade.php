@@ -8,41 +8,30 @@
 </style>
 
       <!-- Page Content -->
-    <div class="page-heading header-text">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1>About Us</h1>
-            <span>We have over 20 years of experience</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="contact-information">
+      <div class="contact-information">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
             <div class="contact-item">
               <i class="fa fa-phone"></i>
               <h4>Phone</h4>
-              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
-              <a href="#">090-080-0760</a>
+              <p>Official Mobile No.</p>
+              <a href="#">+255 718 606 019</a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="contact-item">
               <i class="fa fa-envelope"></i>
               <h4>Email</h4>
-              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
-              <a href="#">info@company.com</a>
+              <p>Official Email</p>
+              <a href="#">info@kacce.or.tz</a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="contact-item">
               <i class="fa fa-map-marker"></i>
               <h4>Location</h4>
-              <p>1020 New Mountain Street<br>Forest Park, FP 11220</p>
+              <p>Kasulu,Kigoma-Tanzania</p>
               <a href="#">View on Google Maps</a>
             </div>
           </div>
@@ -55,7 +44,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h4>Our team <em>members</em></h4>
+              <h4>Team <em>members</em></h4>
             </div>
           </div>
           <div class="col-md-4">
