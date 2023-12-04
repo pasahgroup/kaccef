@@ -296,23 +296,23 @@
       <div class="container">
         <div class="row">
           <!-- BEGIN COPYRIGHT -->
-          <div class="col-md-4 col-sm-4 padding-top-10">
+          <div class="col-md-4 col-sm-12 padding-top-10">
             <a href="javascript:;">Privacy Policy</a> | <a href="javascript:;">Terms of Service</a>
           </div>
 
-          <div class="col-md-3 col-sm-3 padding-top-10">
-            <a href="javascript:;">+255 718 606 019</a> | <a href="javascript:;">info@kacce.or.tz</a>
+          <div class="col-md-3 col-sm-12 padding-top-10">
+            <a href="javascript:;">+255 718 606 019</a>  |  <a href="javascript:;">info@kacce.or.tz</a>
           </div>
           <!-- END COPYRIGHT -->
           <!-- BEGIN PAYMENTS -->
-          <div class="col-md-1 col-sm-1">
+          <div class="col-md-1 col-sm-12">
             <ul class="social-footer list-unstyled list-inline pull-right">
               <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
               <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
           </div>
           <!-- END PAYMENTS -->
           <!-- BEGIN POWERED -->
-          <div class="col-md-4 col-sm-4 text-right">
+          <div class="col-md-4 col-sm-12 text-right">
             <p class="powered">Developed by: <a href="https://www.pasah.net/">www.pasah.net</a></p>
           </div>
           <!-- END POWERED -->
