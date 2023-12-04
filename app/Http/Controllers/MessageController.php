@@ -6,6 +6,14 @@ use App\Models\message;
 use App\Http\Requests\StoremessageRequest;
 use App\Http\Requests\UpdatemessageRequest;
 use Mail;
+use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
+//use Illuminate\Http\Request;
+use Illuminate\Http\Request;
+
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Route;
 
 class MessageController extends Controller
 {
@@ -59,7 +67,7 @@ public function emailSendF()
 //     ]   
 // ];
 
-// dd('zz');
+ dd('zz');
 //dd('zzkx');
 // $jasper = new PHPJasper;
 //dd($jasper);
@@ -112,9 +120,19 @@ dd('Mail sent successfully');
      * @param  \App\Http\Requests\StoremessageRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoremessageRequest $request)
+    public function store(Request $request)
     {
-        //
+      
+    $message = message::Create([
+  // 'property_id'=>$property_id,
+  'full_name'=>request('full_name'),
+  'email'=>request('email'),
+  'phone'=>request('phone'),
+  'subject'=>request('subject'),
+  'message'=>request('message')
+]);
+
+    return redirect()->back();
     }
 
     /**

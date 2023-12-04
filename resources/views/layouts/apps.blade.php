@@ -253,11 +253,11 @@
             <div class="pre-footer-subscribe-box pre-footer-subscribe-box-vertical">
               <h4>Contact US</h4>
                  <!-- <form id="" action="route('email-send',2)" method="post"> -->
-                   <form method="GET" action="{{ route('email-send',2) }}">
+                   <form method="POST" action="{{ route('store') }}">
                                                 @csrf
                                                 <input type="hidden" name="_method" value="post">
                 <div class="input-group">
-                  <input type="text" name="name" placeholder="your full name" class="form-control" required>
+                  <input type="text" name="full_name" placeholder="your full name" class="form-control" required>
                                </div>
                  <div class="input-group">
                   <input type="text" name="phone" placeholder="your phone number" class="form-control" required>
@@ -268,8 +268,7 @@
                 
                 </div>
                  <div class="input-group">
-                  <input type="subject" placeholder="message subject" class="form-control" required>
-                  
+                  <input type="text" name="subject" placeholder="message subject" class="form-control" required>                  
                 </div>
                  <div class="input-group">
                      <textarea name="message" rows="3" cols="40" class="form-control" id="message" placeholder="Your Message" required=""></textarea>

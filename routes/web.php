@@ -28,7 +28,7 @@ Route::get('sendbasicemail', [MailController::class, 'basic_email']);
 Route::get('sendhtmlemail', [MailController::class, 'html_email']);
 Route::get('sendattachmentemail', [MailController::class, 'attachment_email']);
 
-
+Route::resource('/',MessageController::class);
 Route::get('email-send/{id}',[MessageController::class,'emailSendF'])->name('email-send');
 
 Route::get('/', function () {
