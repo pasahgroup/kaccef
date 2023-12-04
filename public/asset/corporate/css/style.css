@@ -4,9 +4,9 @@ Template Name: Metronic - Responsive Website Template build with Twitter Bootstr
 
 /* General body settings */
 body { 
-	color: #3e4d5c; 
+	color:#071a08; 
 	direction: ltr;
-	font: 400 13px 'Open Sans', Arial, sans-serif;
+	font: 400 14px 'Open Sans', Arial, sans-serif;
 	background: #fff;
 }
 
@@ -326,7 +326,7 @@ Custom Scrollbars
 Pre-Header and pre-header elements
 ***/
 .pre-header {
-	color: #616b76;
+	color:yellow;
 	border-bottom: 1px solid #eee;
 	padding-top: 10px;
 	line-height: 1.2;
@@ -335,7 +335,7 @@ Pre-Header and pre-header elements
 	background: #fff;
 }
 .pre-header a {
-	color: #616b76;
+	color:yellow;
 }
 .pre-header a:hover {
 	color: #E02222;
@@ -423,7 +423,7 @@ Header and header elements
 ***/
 .header {
 	box-shadow: 0 1px 3px #ddd;		
-	background: #5e975d;
+	background: #fff;
 	border-radius: 0;
 	margin-bottom: 23px;
 	z-index: 999;
@@ -468,7 +468,7 @@ body.page-header-fixed {
   width: 32px;
   height: 32px;
   display: none;
-  margin: 25px 0 0 30px;
+  margin: 10px 0 0 30px;
   position: relative;
   background: #fff url(../img/icons/toggler.png) no-repeat 6px 8px;
 }
@@ -500,7 +500,7 @@ body.page-header-fixed {
 .header-navigation > ul > li > a {
 	color: #333;
 	display: block;	
-	padding: 29px 12px 30px;
+	padding: 4px 12px 30px;
 }
 .header-navigation ul > li.active > a,
 .header-navigation ul > li > a:hover,
@@ -1436,8 +1436,8 @@ div.content-form-page .checkbox-list {
 Pre-Footer and pre-footer elements
 ***/
 .pre-footer {
-	background: #313030;
-	color: #b0b0b0;
+	background: #3A8045;
+	color: #fff;
 }
 .pre-footer .container {
 	padding-top: 45px;
@@ -1530,6 +1530,7 @@ Pre-Footer and pre-footer elements
 .pre-footer-subscribe-box .input-group {
 	border: solid 1px #545454;
 	padding: 1px 1px 0 0;
+	border-radius: 20px;
 }
 .pre-footer-light .pre-footer-subscribe-box .input-group {
 	border: solid 1px #DBDBDB;
@@ -1542,10 +1543,10 @@ Pre-Footer and pre-footer elements
 }
 .pre-footer-subscribe-box input {
 	border-radius: 0;
-	background: #313030;
-	border: solid 1px #313030;
+	background: #fff;
+	border: solid 1px yellow;
 	color: #909090;
-	font: 13px Arial, sans-serif;
+	font: 17px Arial, sans-serif;
 }
 .pre-footer-subscribe-box input:focus {
 	box-shadow: none;
@@ -1700,7 +1701,7 @@ Pre-Footer and pre-footer elements
 
 /* footer */
 .footer {
-	background: #272626;
+	background: #899199;
 	color: #fff;
 	font-size: 12px;
 	padding: 15px 0;
