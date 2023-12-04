@@ -54,7 +54,7 @@
                       <!-- END CAROUSEL -->             
                     </div>
                     <div class="col-md-8 col-sm-8">
-                      <h2><a href="blog-item.html">Bee Keeping Activities</a></h2>
+                      <h2><a href="#">Bee Keeping Activities</a></h2>
                       <ul class="blog-info">
                         <li><i class="fa fa-calendar"></i> 25/07/2013</li>
                         <li><i class="fa fa-comments"></i> 17</li>
@@ -69,7 +69,7 @@
                       <img class="img-responsive" alt="" src="img/photos/bee1.jpg">
                     </div>
                     <div class="col-md-8 col-sm-8">
-                      <h2><a href="blog-item.html">Activities 2</a></h2>
+                      <h2><a href="#">Activities 2</a></h2>
                       <ul class="blog-info">
                         <li><i class="fa fa-calendar"></i> 25/07/2013</li>
                         <li><i class="fa fa-comments"></i> 17</li>
@@ -87,7 +87,7 @@
                       <!-- END VIDEO -->   
                     </div>
                     <div class="col-md-8 col-sm-8">
-                      <h2><a href="blog-item.html">Activities 3</a></h2>
+                      <h2><a href="#">Activities 3</a></h2>
                       <ul class="blog-info">
                         <li><i class="fa fa-calendar"></i> 25/07/2013</li>
                         <li><i class="fa fa-comments"></i> 17</li>
