@@ -130,7 +130,7 @@
                     <div class="container">
                         <div class="row">
                         <div class="col-md-4">
-                      <div class="carousel-position-six text-uppercase text-center">
+                      <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown">Bee Keeping</p>
                                                           <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
@@ -148,7 +148,7 @@
                     <div class="container">
                         <div class="row">
                         <div class="col-md-4">
-                        <div class="carousel-position-six text-uppercase text-center">
+                        <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown">Entrepreneurship</p>
                                                           <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
@@ -166,7 +166,7 @@
                     <div class="container">
                         <div class="row">
                         <div class="col-md-4">
-                         <div class="carousel-position-six text-uppercase text-center">
+                         <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown">Vulnarable Children</p>
                                                           <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
