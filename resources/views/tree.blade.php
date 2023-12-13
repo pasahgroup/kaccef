@@ -25,6 +25,7 @@
               <div class="row">
                 <!-- BEGIN LEFT SIDEBAR -->            
                 <div class="col-md-12 col-sm-12 blog-posts">
+                 
                   <div class="row">
                     <div class="col-md-4 col-sm-4">
                       <!-- BEGIN CAROUSEL -->            
@@ -56,29 +57,53 @@
                     <div class="col-md-8 col-sm-8">
                       <h2><a href="#">Tree planting activities</a></h2>
                       <ul class="blog-info">
-                        <li><i class="fa fa-calendar"></i> 25/07/2013</li>
-                        <li><i class="fa fa-comments"></i> 17</li>
+                        <li><i class="fa fa-comments"></i>Kazuramimba Ward</li>
                         <li><i class="fa fa-tags"></i> Kasulu,Kigoma,Tanzania</li>
                       </ul>
-                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui sint blanditiis prae sentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing condimentum eleifend enim a feugiat.</p>
+                      <p>KACCE Group take responsible for praparing blocks,seedling and caring small trees before planted.</p>
                     </div>
                   </div>
+
+
+
+  <hr class="blog-post-sep">
+                  <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                      <img class="img-responsive" alt="" src="../img/photos/tree-watering.jpg">
+                    </div>
+                    <div class="col-md-8 col-sm-8">
+                      <h2><a href="#">Watering small trees in their Blocks</a></h2>
+                      <ul class="blog-info">
+                        <li><i class="fa fa-comments"></i>Mazungwe secondary school</li>
+                       <li><i class="fa fa-tags"></i> Kasulu,Kigoma,Tanzania</li>
+                      </ul>
+                   <p>Member of KACCE group watering and caring small trees before planted.</p>                     
+                    </div>
+                  </div>
+
+
+
+
                   <hr class="blog-post-sep">
                   <div class="row">
                     <div class="col-md-4 col-sm-4">
-                      <img class="img-responsive" alt="" src="img/photos/tree-watering2.jpg">
+                      <img class="img-responsive" alt="" src="../assets/images/mazungwe_slide_01.jpg">
                     </div>
                     <div class="col-md-8 col-sm-8">
-                      <h2><a href="#">Activities 2</a></h2>
+                      <h2><a href="#">Training students how to plant fruit trees seedlings and how to care them</a></h2>
                       <ul class="blog-info">
-                        <li><i class="fa fa-calendar"></i> 25/07/2013</li>
-                        <li><i class="fa fa-comments"></i> 17</li>
+                        <li><i class="fa fa-calendar"></i>2023</li>
+                        <li><i class="fa fa-comments"></i>Mazungwe secondary school</li>
                        <li><i class="fa fa-tags"></i> Kasulu,Kigoma,Tanzania</li>
                       </ul>
-                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui sint blanditiis prae sentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing condimentum eleifend enim a feugiat.</p>
+                      <p> KACCE with students of Mazungwe secondary school, After training the students how to plant fruit trees seedlings and how to care the small trees.The students will be the ambassador to other people in order to save the Wolrd Nature.                            
+                           
+                              At this training KACCE planted fruit trees  in Mazungwe Secondary school and other trees Students were given one tree to plant and care at home..</p>
                      
                     </div>
                   </div>
+
+
                   <hr class="blog-post-sep">
                   <div class="row">
                     <div class="col-md-4 col-sm-4">
@@ -95,7 +120,8 @@
                       </ul>
                       <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui sint blanditiis prae sentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing condimentum eleifend enim a feugiat.</p>                     
                     </div>
-                  </div>                                           
+                  </div>    
+
                 </div>
                 <!-- END LEFT SIDEBAR -->           
               </div>

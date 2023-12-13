@@ -292,7 +292,7 @@
     <!-- END PRE-FOOTER -->
 <!-- 3A8045 -->
     <!-- BEGIN FOOTER -->
-    <div class="footer" style="background-color:#205b28">
+    <div class="footer" style="background-color:#0f3914">
       <div class="container">
         <div class="row">
           <!-- BEGIN COPYRIGHT -->
@@ -345,6 +345,28 @@
             Layout.initTwitter();
             Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
             Layout.initNavScrolling();
+        });
+    </script>
+
+
+
+      <script src="../../asset/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="../../asset/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="../../asset/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>      
+    <script src="../../asset/corporate/scripts/back-to-top.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script src="../../asset/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script><!-- pop up -->
+    <script src="../../asset/plugins/jquery-mixitup/jquery.mixitup.min.js" type="text/javascript"></script>
+    
+    <script src="../../asset/corporate/scripts/layout.js" type="text/javascript"></script>
+    <script src="../../asset/pages/scripts/portfolio.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            Layout.init();
+            Layout.initTwitter();
+            Portfolio.init();
         });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->

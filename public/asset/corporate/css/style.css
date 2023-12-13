@@ -1566,7 +1566,7 @@ Pre-Footer and pre-footer elements
 .pre-footer .photo-stream img {
 	width: 54px;
 	height: 54px;
-	border: solid 2px #9ca5ae;
+	border: solid 1px #8ba21d;
 }
 .pre-footer .photo-stream img:hover {
 	border-color: #E84D1C;
