@@ -9,8 +9,45 @@
   background-size: 100% 100%;
   width: 100%;
  } 
-
 </style>
+
+<style>
+.vl {
+  border-left: 1px solid green;
+  height: 20px;
+}
+</style>
+<style type="text/css">
+    .wrapper {
+  padding: 5px;
+   background-color: rgba(0,0,0,0.00001);
+  max-width: 140px;
+  margin: 2px auto;
+}
+
+.demo-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.demo-2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 140px;
+}
+
+.demo-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+</style>
+
+
     <!-- BEGIN SLIDER -->
     <div class="page-slider margin-bottom-40">
           <div class="container-fluid">
@@ -33,9 +70,11 @@
                 <div class="item active wawa" style="background-image: url('../assets/images/mazungwe_slide_01.jpg')">
                     <div class="container">
                        
+                       <div class="row">
+                        <div class="col-md-4">
                         <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30" data-animation="animated fadeInDown">
+                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
                               KACCE with students of Mazungwe secondary school, After training the students how to plant fruit trees seedlings and how to care the small trees.The students will be the ambassador to other people in order to save the Wolrd Nature.
                              
                                                        <br>
@@ -43,6 +82,10 @@
                             </p>
                             <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
                         </div>
+                        </div>
+                      </div>
+
+
                     </div>
                 </div>
             
@@ -51,70 +94,88 @@
     <div class="item wawa" style="background-image: url('../assets/images/slide_03.jpg');">
     <!-- <div class="item wawa" style="background-image: url('../assets/images/slide_03.jpg');min-height: 84vh !important;max-height: 100vh;background-size: 100% 100%;width: 100%;"> -->
                     <div class="container">
-                       
+                         <div class="row">
+                        <div class="col-md-4">
                         <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30" data-animation="animated fadeInDown">
+                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
                               KACCE at initial stage,We preparing tree nurseries.
                             </p>
                             <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
                         </div>
                     </div>
+                  </div>
+                </div>
                 </div>
 
     <!-- First slide -->
                 <div class="item wawa" style="background-image: url('../img/photos/tree-watering.jpg')">
                     <div class="container">
-                       
+                         <div class="row">
+                        <div class="col-md-4">
                         <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30" data-animation="animated fadeInDown">
+                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
                         Member of KACCE group watering and caring small trees before planted.
                             </p>
                             <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
                         </div>
+                      </div>
+                    </div>
                     </div>
                 </div>
 
                 <!-- Second slide -->
                 <div class="item wawa" style="background-image: url('../assets/images/bee_slide_02.jpg')">
                     <div class="container">
+                        <div class="row">
+                        <div class="col-md-4">
                       <div class="carousel-position-six text-uppercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown">Bee Keeping</p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30" data-animation="animated fadeInDown">
+                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
                                 Sed est nunc, sagittis at consectetur id.
                             </p>
                             <a class="carousel-btn-green" href="/bee" data-animation="animated fadeInUp">Read More!</a>
                         </div>
+                      </div>
+                    </div>
                     </div>
                 </div>
 
                 <!-- Third slide -->
                 <div class="item wawa"  style="background-image: url('../assets/images/slide_02.jpg')">
                     <div class="container">
+                        <div class="row">
+                        <div class="col-md-4">
                         <div class="carousel-position-six text-uppercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown">Entrepreneurship</p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30" data-animation="animated fadeInDown">
+                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
                                 Sed est nunc, sagittis at consectetur id.
                             </p>
                             <a class="carousel-btn-green" href="/entrepreneur" data-animation="animated fadeInUp">Read More!</a>
                         </div>
+                      </div>
+                    </div>
                     </div>
                 </div>
 
                    <!-- Fouth slide -->
                 <div class="item wawa"  style="background-image: url('../img/photos/children.jpg')">
                     <div class="container">
+                        <div class="row">
+                        <div class="col-md-4">
                          <div class="carousel-position-six text-uppercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown">Vulnarable Children</p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30" data-animation="animated fadeInDown">
+                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
                                 Sed est nunc, sagittis at consectetur id.
                             </p>
                             <a class="carousel-btn-green" href="/children" data-animation="animated fadeInUp">Read More!</a>
                         </div>
+                      </div>
+                    </div>
                     </div>
                 </div>
             </div>
