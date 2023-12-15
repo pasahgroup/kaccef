@@ -15,6 +15,17 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
+use JasperPHP\JasperPHP as JasperPHP;
+use PHPJasper\PHPJasper;
+
+ require base_path().'/vendor/autoload.php';
+ //require base_path().'/vendor/autoload.php';
+include_once(app_path().'/jrf/PHPJasperXML.inc.php');
+ include_once(app_path().'/jrf/tcpdf/tcpdf.php');
+  //include_once(app_path().'/fpdf184/mysql_table.php');
+  //include_once(app_path().'/fpdf184/pdfg.php');
+ use PHPJasperXML;
+
 class MessageController extends Controller
 {
     /**
@@ -40,79 +51,6 @@ class MessageController extends Controller
 
 
 
-public function emailSendF()
-{
-       // include_once(app_path().'/jrf/sample/setting.php');
-       // $jasper = new PHPJasperXML();
-           // $jasper = new PHPJasper;
-
-// //dd('bvncx');
-// $input =app_path().'/reports/pieChart.jrxml';
-//  //$input =app_path().'/reports/department.jrxml';
-// $output =app_path().'/reports';
-
-// $options = [
-//     'format' => ['pdf'],
-//     'locale' => 'en',
-//     'params' => [
-//  'property_id'=>1,
-//     ],
-//     'db_connection' => [
-//          'driver' => 'mysql', //mysql, ....
-//          'username' => 'root',
-//         //'password' => '',
-//         'host' => '127.0.0.1',
-//         'database' => 'horesydb',
-//         'port' => '3306'
-//     ]   
-// ];
-
- dd('zz');
-//dd('zzkx');
-// $jasper = new PHPJasper;
-//dd($jasper);
-
-// $jasper->process(
-//         $input,
-//         $output,
-//         $options
-// )->execute();
-
-//dd('zzkx back');
-//Send report
-
-
-
-$date=date('d-M-Y');
-$data["email"] = "buruwawa@gmail.com";
-
-$data["title"] = "Daily General Inspection Hotel Report (DGIR)";
-$data["body"] = "Manyara Best View Hotel: Daily General Inspection Report held on $date";
-$data["date"] = "Date: $date";
-//dd(app_path());
-
-$files = [
-app_path('reports/pieChart.pdf'),
-// app_path().'/reports/itinerayReportf.pdf',
-// public_path('files/reports.png'),
-];
-  //SendMailJobf::dispatch($data);
-
-Mail::send('email.email', $data, function($message)use($data, $files) {
-$message->to($data["email"], $data["email"])
-        ->subject($data["title"]);
-foreach ($files as $file){
-    $message->attach($file);
-}
-});
-
-dd('Mail sent successfully');
-}
-
-
-
-
-
 
     /**
      * Store a newly created resource in storage.
@@ -134,6 +72,80 @@ dd('Mail sent successfully');
 
     return redirect()->back();
     }
+
+
+
+
+
+public function emailSendF()
+{
+
+       include_once(app_path().'/jrf/sample/setting.php');
+       $jasper = new PHPJasperXML();
+           // $jasper = new PHPJasper;
+
+//dd('bvncx');
+$input =app_path().'/reports/pieChart.jrxml';
+ //$input =app_path().'/reports/department.jrxml';
+$output =app_path().'/reports';
+
+$options = [
+    'format' => ['pdf'],
+    'locale' => 'en',
+    'params' => [
+ 'property_id'=>1,
+    ],
+    'db_connection' => [
+         'driver' => 'mysql', //mysql, ....
+         'username' => 'root',
+        //'password' => '',
+        'host' => '127.0.0.1',
+        'database' => 'horesydb',
+        'port' => '3306'
+    ]
+
+    // \Config::get('database.connections.mysql')
+
+];
+
+// Get Itininery
+
+//dd('print ff');
+
+
+$date=date('d-M-Y');
+// $data["email"] = "palatialtours@gmail.com";
+$data["email"] = "buruwawa@gmail.com";
+
+$data["title"] = "ITINERARY";
+$data["body"] = "Manyara Best View Hotel: Daily General Inspection Report held on $date";
+$data["date"] = "Date: $date";
+
+// $arrayName =$socialmedia;
+// $data['socialmedia'] =$socialmedia;
+// $data['datas'] =$datas; 
+// $data['programs'] =$tour_addons; 
+//dd($data);
+
+$files = [
+//app_path('reports/pieChart.pdf'),
+
+// app_path().'/reports/itinerayReportf.pdf',
+// public_path('files/reports.png'),
+];
+  //SendMailJobf::dispatch($data);
+ //dd('try34');
+Mail::send('emailsend.email_send',$data, function($message)use($data, $files) {
+$message->to($data["email"], $data["email"])
+        ->subject($data["title"]);
+foreach ($files as $file){
+    $message->attach($file);
+}
+});
+
+dd('Mail sent successfully');
+}
+
 
     /**
      * Display the specified resource.

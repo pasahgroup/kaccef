@@ -24,6 +24,11 @@ use App\Http\Controllers\MessageController;
 // Route::get('sendhtmlemail','MailController@html_email');
 // Route::get('sendattachmentemail','MailController@attachment_email');
 
+
+Route::post('email-send/{id}',[MessageController::class,'emailSendF'])->name('email-send');
+Route::get('email',[MessageController::class,'email'])->name('email');
+
+
 Route::get('sendbasicemail', [MailController::class, 'basic_email']);
 Route::get('sendhtmlemail', [MailController::class, 'html_email']);
 Route::get('sendattachmentemail', [MailController::class, 'attachment_email']);

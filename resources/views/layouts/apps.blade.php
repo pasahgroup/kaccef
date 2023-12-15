@@ -253,9 +253,9 @@
             <div class="pre-footer-subscribe-box pre-footer-subscribe-box-vertical">
               <h4>Contact US</h4>
                  <!-- <form id="" action="route('email-send',2)" method="post"> -->
-                   <form method="POST" action="{{ route('store') }}">
+                   <form method="GET" action="{{ route('email-send',1) }}">
                                                 @csrf
-                                                <input type="hidden" name="_method" value="post">
+                                                <input type="hidden" name="_method" value="POST">
                 <div class="input-group">
                   <input type="text" name="full_name" placeholder="your full name" class="form-control" required>
                                </div>

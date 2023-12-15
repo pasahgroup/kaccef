@@ -4,7 +4,7 @@
 
 <style type="text/css">
  .wawa{
-  min-height: 83vh !important;
+  min-height: 80vh !important;
   max-height: 83vh;
   background-size: 100% 100%;
   width: 100%;
@@ -58,6 +58,11 @@
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                          <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -73,7 +78,7 @@
                        <div class="row">
                         <div class="col-md-4">
                         <div class="carousel-position-six text-lowercase text-center">
-                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
+                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink style="background-color:;">Tree Planting</blink></p>
                                                           <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
                               KACCE with students of Mazungwe secondary school, After training the students how to plant fruit trees seedlings and how to care the small trees.The students will be the ambassador to other people in order to save the Wolrd Nature.
                              
@@ -91,7 +96,7 @@
             
 
 
-    <div class="item wawa" style="background-image: url('../assets/images/slide_03.jpg');">
+    <div class="item wawa" style="background-image: url('../img/photos/slide_03.jpg');">
     <!-- <div class="item wawa" style="background-image: url('../assets/images/slide_03.jpg');min-height: 84vh !important;max-height: 100vh;background-size: 100% 100%;width: 100%;"> -->
                     <div class="container">
                          <div class="row">
@@ -99,7 +104,8 @@
                         <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
                                                           <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                              KACCE at initial stage,We preparing tree nurseries.
+                              <!-- KACCE at initial stage,We preparing tree nurseries. -->
+                          KACCE incorporate Children in environmental Development Program in order to adapt the Activities(Plant tree save the world).
                             </p>
                             <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
                         </div>
@@ -109,6 +115,40 @@
                 </div>
 
     <!-- First slide -->
+
+     <div class="item wawa" style="background-image: url('../img/photos/slide_04.jpg')">
+                    <div class="container">
+                         <div class="row">
+                        <div class="col-md-4">
+                        <div class="carousel-position-six text-lowercase text-center">
+                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
+                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
+                       A child given a fruit tree to plant at home(plant tree save the World).
+                            </p>
+                            <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+
+
+     <div class="item wawa" style="background-image: url('../img/photos/slide_05.jpg')">
+                    <div class="container">
+                         <div class="row">
+                        <div class="col-md-4">
+                        <div class="carousel-position-six text-lowercase text-center">
+                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
+                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
+                       Pupil from kazuramimba primary school plant guava fruit tree at home(plant tree save the World).
+                            </p>
+                            <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+
                 <div class="item wawa" style="background-image: url('../img/photos/tree-watering.jpg')">
                     <div class="container">
                          <div class="row">
@@ -116,7 +156,7 @@
                         <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
                                                           <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                        Member of KACCE group watering and caring small trees before planted.
+                        Member of KACCE group watering and caring small trees before distributed to the community for planting(plant tree save the World).
                             </p>
                             <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
                         </div>
