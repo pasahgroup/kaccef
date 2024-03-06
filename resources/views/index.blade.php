@@ -354,7 +354,7 @@
       <!--  -->
               <div class="down-content">
                 <span>Vulnarable Children</span>
-                <p>Wafanyakazi wa KACCE wakiwapatia wanafunzi wa shule ya msingi bbbb. madaftari ya kusomea</p>
+                <p>Some of Vulnarable Pupils of Raba primary schools were given exercise books by KACCE Team(Save children save the world).</p>
                 <a href="/children" class="filled-button">Read More</a>
               </div>
             </div>
