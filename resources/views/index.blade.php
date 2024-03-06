@@ -123,7 +123,7 @@
                         <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
                                                           <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                      Pupils of Raba primary schools plant palm oil tree around the school compand,The project was sponsored by KACCE Team(Plant tree save the world).
+                      Pupils of Raba primary school plant palm oil tree around the school compand,The project was sponsored by KACCE Team(Plant tree save the world).
                             </p>
                             <a class="carousel-btn-green" href="/children" data-animation="animated fadeInUp">Read More!</a>
                         </div>
@@ -209,7 +209,7 @@
                          <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown">Vulnarable Children</p>
                                                           <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                               Some of the pupils of  Kazuramimba primary schools were given books by KACCE Team.
+                               Some of the pupils of  Kazuramimba primary school were given books by KACCE Team.
                             </p>
                             <a class="carousel-btn-green" href="/children" data-animation="animated fadeInUp">Read More!</a>
                         </div>
@@ -354,7 +354,7 @@
       <!--  -->
               <div class="down-content">
                 <span>Vulnarable Children</span>
-                <p>Some of Vulnarable Pupils of Raba primary schools were given exercise books by KACCE Team(Save children save the world).</p>
+                <p>Some of Vulnarable Pupils of Raba primary school were given exercise books by KACCE Team(Save children save the world).</p>
                 <a href="/children" class="filled-button">Read More</a>
               </div>
             </div>

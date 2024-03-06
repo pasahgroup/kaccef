@@ -60,7 +60,7 @@
                         <li><i class="fa fa-comments"></i> 17</li>
                         <li><i class="fa fa-tags"></i> Kasulu,Kigoma,Tanzania</li>
                       </ul>
-                       <p>Some of Vulnarable Pupils of Raba primary schools were given exercise books by KACCE Team(Save children save the world).</p>
+                       <p>Some of Vulnarable Pupils of Raba primary school were given exercise books by KACCE Team(Save children save the world).</p>
                     </div>
                   </div>
                   <hr class="blog-post-sep">
@@ -75,7 +75,7 @@
                         <li><i class="fa fa-comments"></i> 17</li>
                        <li><i class="fa fa-tags"></i> Kasulu,Kigoma,Tanzania</li>
                       </ul>
-                      <p> Some of Vulnarable Pupils of Mazungwe primary schools were given exercise books by KACCE Team(Save children save the world).</p>
+                      <p> Some of Vulnarable Pupils of Mazungwe primary school were given exercise books by KACCE Team(Save children save the world).</p>
                      
                     </div>
                   </div>
