@@ -35,9 +35,9 @@
                             <div class="item">
                               <img alt="" src="img/vul/ch1.jpg">
                             </div>
-                            <div class="item">
+                           <!--  <div class="item">
                               <img alt="" src="img/vul/ch2.jpg">
-                            </div>
+                            </div> -->
                             <div class="item active">
                               <img alt="" src="img/vul/ch3.jpg">
                             </div>
@@ -60,13 +60,13 @@
                         <li><i class="fa fa-comments"></i> 17</li>
                         <li><i class="fa fa-tags"></i> Kasulu,Kigoma,Tanzania</li>
                       </ul>
-                      <p>Wafanyakazi wa KACCE wakiwapatia wanafunzi baadhi wa shule ya msingi bbbb. madaftari ya kusomea.</p>
+                       <p>Some of Vulnarable Pupils of Raba primary schools were given exercise books by KACCE Team(Save children save the world).</p>
                     </div>
                   </div>
                   <hr class="blog-post-sep">
                   <div class="row">
                     <div class="col-md-4 col-sm-4">
-                      <img class="img-responsive" alt="" src="img/vul/ch1.jpg">
+                      <img class="img-responsive" alt="" src="img/vul/ch2.jpg">
                     </div>
                     <div class="col-md-8 col-sm-8">
                       <h2><a href="#">Activities 2</a></h2>
@@ -75,7 +75,7 @@
                         <li><i class="fa fa-comments"></i> 17</li>
                        <li><i class="fa fa-tags"></i> Kasulu,Kigoma,Tanzania</li>
                       </ul>
-                      <p>Wafanyakazi wa KACCE wakiwapatia wanafunzi baadhi wa shule ya msingi bbbb. madaftari ya kusomea</p>
+                      <p> Some of Vulnarable Pupils of Mazungwe primary schools were given exercise books by KACCE Team(Save children save the world).</p>
                      
                     </div>
                   </div>
