@@ -116,16 +116,16 @@
 
     <!-- First slide -->
 
-     <div class="item wawa" style="background-image: url('../img/photos/slide_04.jpg')">
+     <div class="item wawa" style="background-image: url('../img/tree/raba_pupil_plant_tree.jpg')">
                     <div class="container">
                          <div class="row">
                         <div class="col-md-4">
                         <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
                                                           <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                       A child given a fruit tree to plant at home(plant tree save the World).
+                      Pupils of Raba primary schools plant palm oil tree around the school compand,The project was sponsored by KACCE Team(Plant tree save the world).
                             </p>
-                            <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
+                            <a class="carousel-btn-green" href="/children" data-animation="animated fadeInUp">Read More!</a>
                         </div>
                       </div>
                     </div>
@@ -202,15 +202,14 @@
                 </div>
 
                    <!-- Fouth slide -->
-                <div class="item wawa"  style="background-image: url('../img/photos/children.jpg')">
+                <div class="item wawa"  style="background-image: url('../img/vul/ch1.jpg')">
                     <div class="container">
                         <div class="row">
                         <div class="col-md-4">
                          <div class="carousel-position-six text-lowercase text-center">
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown">Vulnarable Children</p>
                                                           <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
-                                Sed est nunc, sagittis at consectetur id.
+                               Some of the pupils of  Kazuramimba primary schools were given books by KACCE Team.
                             </p>
                             <a class="carousel-btn-green" href="/children" data-animation="animated fadeInUp">Read More!</a>
                         </div>
@@ -351,11 +350,11 @@
             <div class="front-step front-step3"  style="background-color:#3A8045">
             <div class="service-item"> 
               <h2>Vulnarable Children</h2>
-             <img src="img/photos/mise.jpg" alt="" style="height:34vh;">           
+             <img src="img/vul/ch1.jpg" alt="" style="height:34vh;">           
       <!--  -->
               <div class="down-content">
                 <span>Vulnarable Children</span>
-                <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
+                <p>Wafanyakazi wa KACCE wakiwapatia wanafunzi wa shule ya msingi bbbb. madaftari ya kusomea</p>
                 <a href="/children" class="filled-button">Read More</a>
               </div>
             </div>

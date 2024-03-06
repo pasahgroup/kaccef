@@ -15,7 +15,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h3>Vulnarable Children and Widowsg</h3>
+            <h3>Vulnarable Children and Widows</h3>
           </div>
         </div>
       </div>
@@ -33,13 +33,13 @@
                           <!-- Carousel items -->
                           <div class="carousel-inner">
                             <div class="item">
-                              <img alt="" src="img/photos/children.jpg">
+                              <img alt="" src="img/vul/ch1.jpg">
                             </div>
                             <div class="item">
-                              <img alt="" src="img/photos/children.jpg">
+                              <img alt="" src="img/vul/ch2.jpg">
                             </div>
                             <div class="item active">
-                              <img alt="" src="img/photos/children.jpg">
+                              <img alt="" src="img/vul/ch3.jpg">
                             </div>
                           </div>
                           <!-- Carousel nav -->
@@ -60,13 +60,13 @@
                         <li><i class="fa fa-comments"></i> 17</li>
                         <li><i class="fa fa-tags"></i> Kasulu,Kigoma,Tanzania</li>
                       </ul>
-                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui sint blanditiis prae sentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing condimentum eleifend enim a feugiat.</p>
+                      <p>Wafanyakazi wa KACCE wakiwapatia wanafunzi baadhi wa shule ya msingi bbbb. madaftari ya kusomea.</p>
                     </div>
                   </div>
                   <hr class="blog-post-sep">
                   <div class="row">
                     <div class="col-md-4 col-sm-4">
-                      <img class="img-responsive" alt="" src="img/photos/children.jpg">
+                      <img class="img-responsive" alt="" src="img/vul/ch1.jpg">
                     </div>
                     <div class="col-md-8 col-sm-8">
                       <h2><a href="#">Activities 2</a></h2>
@@ -75,7 +75,7 @@
                         <li><i class="fa fa-comments"></i> 17</li>
                        <li><i class="fa fa-tags"></i> Kasulu,Kigoma,Tanzania</li>
                       </ul>
-                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui sint blanditiis prae sentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing condimentum eleifend enim a feugiat.</p>
+                      <p>Wafanyakazi wa KACCE wakiwapatia wanafunzi baadhi wa shule ya msingi bbbb. madaftari ya kusomea</p>
                      
                     </div>
                   </div>
