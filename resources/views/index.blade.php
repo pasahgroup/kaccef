@@ -4,8 +4,9 @@
 
 <style type="text/css">
  .wawa{
-  min-height: 80vh !important;
-  max-height: 83vh;
+
+   max-height: 83vh;
+  min-height: 65vh !important;
   background-size: 100% 100%;
   width: 100%;
  } 
@@ -63,6 +64,7 @@
                         <li data-target="#carousel-example-generic" data-slide-to="6"></li>
                           <li data-target="#carousel-example-generic" data-slide-to="7"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+                              <li data-target="#carousel-example-generic" data-slide-to="9"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -72,7 +74,29 @@
                 
                     <!-- First slide -->
                   
-                <div class="item active wawa" style="background-image: url('../assets/images/mazungwe_slide_01.jpg')">
+
+   <div class="item active wawa" style="background-image: url('../img/tree/mazungwe_pupil_plant_tree.jpg');">
+    <!-- <div class="item wawa" style="background-image: url('../assets/images/slide_03.jpg');min-height: 84vh !important;max-height: 100vh;background-size: 100% 100%;width: 100%;"> -->
+                    <div class="container">
+                         <div class="row">
+                        <div class="col-md-4">
+                        <div class="carousel-position-six text-lowercase text-center">
+                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
+                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
+                              <!-- KACCE at initial stage,We preparing tree nurseries. -->
+                          KACCE team training Teachers and pupils of Mazungwe primary school how to plant and care the palm oil trees(Plant trees save the wolrd).
+                            </p>
+                            <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+
+
+
+                <div class="item wawa" style="background-image: url('../assets/images/mazungwe_slide_01.jpg')">
                     <div class="container">
                        
                        <div class="row">
@@ -95,6 +119,8 @@
                 </div>
             
 
+
+ 
 
     <div class="item wawa" style="background-image: url('../img/photos/slide_03.jpg');">
     <!-- <div class="item wawa" style="background-image: url('../assets/images/slide_03.jpg');min-height: 84vh !important;max-height: 100vh;background-size: 100% 100%;width: 100%;"> -->
@@ -120,7 +146,8 @@
                     <div class="container">
                          <div class="row">
                         <div class="col-md-4">
-                        <div class="carousel-position-six text-lowercase text-center">
+                           <div class="carousel-position-six text-lowercase text-center">
+                        <!-- <div class="carousel-position-six text-lowercase text-center" style="background:#57A463;opacity:0.7"> -->
                                                        <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
                                                           <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
                       Pupils of Raba primary school plant palm oil tree around the school compand,The project was sponsored by KACCE Team(Plant tree save the world).

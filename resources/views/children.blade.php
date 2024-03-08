@@ -32,13 +32,13 @@
                         <div class="carousel slide" id="myCarousel">
                           <!-- Carousel items -->
                           <div class="carousel-inner">
-                            <div class="item">
+                            <div class="item active">
                               <img alt="" src="img/vul/ch1.jpg">
                             </div>
                            <!--  <div class="item">
                               <img alt="" src="img/vul/ch2.jpg">
                             </div> -->
-                            <div class="item active">
+                            <div class="item">
                               <img alt="" src="img/vul/ch3.jpg">
                             </div>
                           </div>
