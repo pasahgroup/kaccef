@@ -164,7 +164,7 @@ background-size: 100% 100%;
                         <p style="background-color:#237b37;">
                        Some of the pupils of Kazuramimba primary school were given books by KACCE Team..</p>
                         <div class="slider-buttons">
-                             <a class="button button1" href="/tree" data-animation="animated fadeInUp">Read More</a>
+                             <a class="button button1" href="/children" data-animation="animated fadeInUp">Read More</a>
                         </div>
                     </div>
                 </div>
