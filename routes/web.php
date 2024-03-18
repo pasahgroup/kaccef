@@ -41,6 +41,10 @@ Route::get('/', function () {
 });
 
 
+Route::get('/pp', function () {
+    return view('testpage');
+});
+
 Route::get('/blog', function () {
     return view('blog');
 });

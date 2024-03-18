@@ -1,16 +1,106 @@
 @extends('layouts.apps')
 @section('content')
 
+<!-- 
+ <link href="../../testpage/css/vendor/bootstrap.css" rel="stylesheet" />
+    <link href="../../testpage/css/vendor/font-awesome.css" rel="stylesheet" />
+    <link href="../../testpage/css/vendor/slick.css" rel="stylesheet" />
+    <link href="../../testpage/css/vendor/slick-theme.css" rel="stylesheet" />
+    <link href="../../testpage/css/vendor/odometer-theme-default.css" rel="stylesheet" /> -->
+    <link href="../../testpage/css/main.css" rel="stylesheet" />
+
+
+<style>
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+</style>
+
+
+
 
 <style type="text/css">
  .wawa{
 
    max-height: 83vh;
   min-height: 65vh !important;
-  background-size: 100% 100%;
+  /*background-size: auto  auto;*/
+   background-size: 100% 100%;
+   background-position: center;
   width: 100%;
  } 
+
+
+ .images {
+     height:auto;
+     width:100% background-repeat: no-repeat;
+                     background-size:100% 100%;
+                       background-position: center;
+    } 
+
+.img {
+min-width: 80%;
+width: 200px; // assume this is the default size
+background-size: 100% 100%;
+}
+
 </style>
+
+
+
+
+<style type="text/css">
+    @media only screen and (min-width: 1025px) {
+        .mobile-only {
+            display:none !important;
+        }
+    } 
+    @media only screen and (max-width: 1026px) {
+        .desktop-only {
+            display:none !important;
+        }
+    } 
+</style>
+
 
 <style>
 .vl {
@@ -49,250 +139,90 @@
 </style>
 
 
-    <!-- BEGIN SLIDER -->
-    <div class="page-slider margin-bottom-40">
-          <div class="container-fluid">
-        <div id="carousel-example-generic" class="carousel slide carousel-slider">
-            <!-- Indicators -->
-            <ol class="carousel-indicators carousel-indicators-frontend">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                      <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-                              <li data-target="#carousel-example-generic" data-slide-to="9"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <!-- First slide -->
-            
-                
-                    <!-- First slide -->
-                  
-
-   <div class="item active wawa" style="background-image: url('../img/tree/mazungwe_pupil_plant_tree.jpg');">
-    <!-- <div class="item wawa" style="background-image: url('../assets/images/slide_03.jpg');min-height: 84vh !important;max-height: 100vh;background-size: 100% 100%;width: 100%;"> -->
+  <div class="home-slider">
+        <div class="home-slider--wrapper">
+          
+               <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('../img/tree/mazungwe_pupil_plant_tree.jpg')">
                     <div class="container">
-                         <div class="row">
-                        <div class="col-md-4">
-                        <div class="carousel-position-six text-lowercase text-center">
-                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                              <!-- KACCE at initial stage,We preparing tree nurseries. -->
-                          KACCE team training Teachers and pupils of Mazungwe primary school how to plant and care the palm oil trees(Plant trees save the wolrd).
-                            </p>
-                            <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
+                                               <span class="dot-dash">Mazungwe primary School</span>
+                            <!-- <h3 class=""><p>Mazungwe primary School</p></h3>                    -->
+                        <p style="background-color:#237b37">
+                        KACCE team training Teachers and pupils of Mazungwe primary school how to plant and care the palm oil trees(Plant trees save the wolrd).</p>
+                        <div class="slider-buttons">
+                             <a class="button button1" href="/tree" data-animation="animated fadeInUp">Read More</a>
                         </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-
-
-
-
-                <div class="item wawa" style="background-image: url('../assets/images/mazungwe_slide_01.jpg')">
+            </div>
+           
+    <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('../img/vul/ch1.jpg')">
                     <div class="container">
-                       
-                       <div class="row">
-                        <div class="col-md-4">
-                        <div class="carousel-position-six text-lowercase text-center">
-                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink style="background-color:;">Tree Planting</blink></p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                              KACCE with students of Mazungwe secondary school, After training the students how to plant fruit trees seedlings and how to care the small trees.The students will be the ambassador to other people in order to save the Wolrd Nature.
-                             
-                                                       <br>
-                              At this training KACCE planted fruit trees  in Mazungwe Secondary school and other trees Students were given one tree to plant and care at home.
-                            </p>
-                            <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
+                                               <span class="dot-dash">Vulnarable Children</span>
+                            <!-- <h3 class=""><p>Mazungwe primary School</p></h3>                    -->
+                        <p style="background-color:#237b37;">
+                       Some of the pupils of Kazuramimba primary school were given books by KACCE Team..</p>
+                        <div class="slider-buttons">
+                             <a class="button button1" href="/tree" data-animation="animated fadeInUp">Read More</a>
                         </div>
-                        </div>
-                      </div>
-
-
-                    </div>
-                </div>
-            
-
-
- 
-
-    <div class="item wawa" style="background-image: url('../img/photos/slide_03.jpg');">
-    <!-- <div class="item wawa" style="background-image: url('../assets/images/slide_03.jpg');min-height: 84vh !important;max-height: 100vh;background-size: 100% 100%;width: 100%;"> -->
-                    <div class="container">
-                         <div class="row">
-                        <div class="col-md-4">
-                        <div class="carousel-position-six text-lowercase text-center">
-                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                              <!-- KACCE at initial stage,We preparing tree nurseries. -->
-                          KACCE incorporate Children in environmental Development Program in order to adapt the Activities(Plant tree save the world).
-                            </p>
-                            <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                </div>
-
-    <!-- First slide -->
-
-     <div class="item wawa" style="background-image: url('../img/tree/raba_pupil_plant_tree.jpg')">
-                    <div class="container">
-                         <div class="row">
-                        <div class="col-md-4">
-                           <div class="carousel-position-six text-lowercase text-center">
-                        <!-- <div class="carousel-position-six text-lowercase text-center" style="background:#57A463;opacity:0.7"> -->
-                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                      Pupils of Raba primary school plant palm oil tree around the school compand,The project was sponsored by KACCE Team(Plant tree save the world).
-                            </p>
-                            <a class="carousel-btn-green" href="/children" data-animation="animated fadeInUp">Read More!</a>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-
-
-     <div class="item wawa" style="background-image: url('../img/photos/slide_05.jpg')">
-                    <div class="container">
-                         <div class="row">
-                        <div class="col-md-4">
-                        <div class="carousel-position-six text-lowercase text-center">
-                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                       Pupil from kazuramimba primary school plant guava fruit tree at home(plant tree save the World).
-                            </p>
-                            <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="item wawa" style="background-image: url('../img/photos/tree-watering.jpg')">
-                    <div class="container">
-                         <div class="row">
-                        <div class="col-md-4">
-                        <div class="carousel-position-six text-lowercase text-center">
-                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown"><blink>Tree Planting</blink></p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                        Member of KACCE group watering and caring small trees before distributed to the community for planting(plant tree save the World).
-                            </p>
-                            <a class="carousel-btn-green" href="/tree" data-animation="animated fadeInUp">Read More!</a>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-
-                <!-- Second slide -->
-                <div class="item wawa" style="background-image: url('../assets/images/bee_slide_02.jpg')">
-                    <div class="container">
-                        <div class="row">
-                        <div class="col-md-4">
-                      <div class="carousel-position-six text-lowercase text-center">
-                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown">Bee Keeping</p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
-                                Sed est nunc, sagittis at consectetur id.
-                            </p>
-                            <a class="carousel-btn-green" href="/bee" data-animation="animated fadeInUp">Read More!</a>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-
-                <!-- Third slide -->
-                <div class="item wawa"  style="background-image: url('../assets/images/slide_02.jpg')">
-                    <div class="container">
-                        <div class="row">
-                        <div class="col-md-4">
-                        <div class="carousel-position-six text-lowercase text-center">
-                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown">Entrepreneurship</p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
-                                Sed est nunc, sagittis at consectetur id.
-                            </p>
-                            <a class="carousel-btn-green" href="/entrepreneur" data-animation="animated fadeInUp">Read More!</a>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-
-                   <!-- Fouth slide -->
-                <div class="item wawa"  style="background-image: url('../img/vul/ch1.jpg')">
-                    <div class="container">
-                        <div class="row">
-                        <div class="col-md-4">
-                         <div class="carousel-position-six text-lowercase text-center">
-                                                       <p class="carousel-subtitle-v5 border-top-bottom margin-bottom-30" data-animation="animated fadeInDown">Vulnarable Children</p>
-                                                          <p class="carousel-subtitle-v7 margin-bottom-30 demo-1" data-animation="animated fadeInDown">
-                               Some of the pupils of  Kazuramimba primary school were given books by KACCE Team.
-                            </p>
-                            <a class="carousel-btn-green" href="/children" data-animation="animated fadeInUp">Read More!</a>
-                        </div>
-                      </div>
-                    </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Controls -->
-            <a class="left carousel-control carousel-control-shop carousel-control-frontend" href="#carousel-example-generic" role="button" data-slide="prev">
-                <i class="fa fa-angle-left" aria-hidden="true"></i>
-            </a>
-            <a class="right carousel-control carousel-control-shop carousel-control-frontend" href="#carousel-example-generic" role="button" data-slide="next">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-            </a>
+
+
+
+
         </div>
-         <div class="request-form" style="background-color:#3A8045;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12" style="color:yellow;">
-            <span>Kazuramimba Catchment Conservation and Education (KACCE)</span>
-          </div>
-          <!-- <div class="col-md-2">
-            <a href="donate.php" class="border-button btn-success">Donate</a>
-          </div> -->
+        <div class="home-slider--nav">
+            <div class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+            <div class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
         </div>
-      </div>
+        <div class="home-slider--anchor">
+            <span><i class="fa fa-anchor" aria-hidden="true"></i></span>
+        </div>
     </div>
-    </div>
-  </div>
-
-                 
 
 
-  <div class="main">
-      <div class="container-fluid">
 
- <div class="comments">
-                    <div class="media">                    
-                      <a href="javascript:;" class="pull-left">
+
+
+
+
+
+
+
+
+
+
+      <div class="container-fluid">                
+
+                      <div class="row">
+          <div class="col-md-6">                         
+                          <div class="media-body">
+                            <h4 class="media-heading">Kazuramimba Catchment Conservation and Education <span>Welcomed <a href="javascript:;">(KACCE)</a></span></h4>
+                          </div>
+                       
+                    </div> 
+         
+          <div class="col-md-6 text-right">
+             <div class="media">                    
+                      <a href="javascript:;" class="pull-right">
                       <img src="img/logo/logo.png" alt="" class="media-object" style="width: auto; height: 52px;">
                       </a>
                       <div class="media-body">                     
                         <div class="media">                          
                           <div class="media-body">
-                            <h4 class="media-heading">KACCE <span>Welcomed <a href="javascript:;">you</a></span></h4>
-                            <p>Kacce global Moto to attract the Donor </p>
+                            <p>A giving hand is blessed</p>
                           </div>
                         </div>
                      
-                        <!--end media-->
                       </div>
-                    </div>                  
-                  </div>
-    </div>
+                    </div> 
+          </div>
+        </div>
+      </div>
 
 
                   <hr>
@@ -419,4 +349,22 @@
     </div>
      </div>
     </div>
+
+
+
+    <!--   <script type="text/javascript">
+        window.odometerOptions = {
+            format: '(,ddd)',
+        };
+    </script> -->
+    <script src="../../testpage/js/vendor/jquery-3.1.0.min.js"></script>
+    <!-- <script src="../../testpage/js/vendor/jquery.easing.min.js"></script> -->
+    <!-- <script src="../../testpage/js/vendor/tether.js"></script> -->
+    <!-- <script src="../../testpage/js/vendor/bootstrap.js"></script> -->
+    
+    <script src="../../testpage/js/vendor/slick.js"></script>
+   <script src="../../testpage/js/vendor/isotope.pkgd.min.js"></script>
+    <!-- <script src="../../testpage/js/vendor/odometer.min.js"></script> -->
+     <script src="../../testpage/js/main.js"></script>
+
 @endsection
