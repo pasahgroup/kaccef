@@ -201,7 +201,7 @@ background-size: 100% 100%;
                       <div class="row">
           <div class="col-md-6">                         
                           <div class="media-body">
-                            <h4 class="media-heading">Kazuramimba Catchment Conservation and Education <span>Welcomed <a href="javascript:;">(KACCE)</a></span></h4>
+                            <h4 class="media-heading">Kazuramimba Catchment Conservation and Education <span><a href="javascript:;">(KACCE)</a></span></h4>
                           </div>
                        
                     </div> 
