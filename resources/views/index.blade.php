@@ -156,7 +156,7 @@ background-size: 100% 100%;
                 </div>
             </div>
            
-    <div>
+         <div>
                 <div class="home-slider--wrapper__inner" style="background-image: url('../img/vul/ch1.jpg')">
                     <div class="container">
                                                <span class="dot-dash">Vulnarable Children</span>
