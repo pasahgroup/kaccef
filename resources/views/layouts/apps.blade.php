@@ -87,7 +87,7 @@
                 <!-- END TOP BAR LEFT PART -->
                 <!-- BEGIN TOP BAR MENU -->
                 <div class="col-md-2 col-xs-2">
-                   <strong><marquee style="marquee-speed:slow;color:#fff;">KACCE Welcomed</marquee></strong>    
+                   <strong><marquee style="marquee-speed:slow;color:#fff;">Welcome at KACCE</marquee></strong>    
              </div>
 
                 <div class="col-md-4 col-sm-4 additional-nav">

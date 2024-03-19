@@ -142,11 +142,28 @@ background-size: 100% 100%;
   <div class="home-slider">
         <div class="home-slider--wrapper">
           
+
+
+   <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('../img/tree/raba_pupil_plant_tree.jpg')">
+                    <div class="container">
+                                               <span class="dot-dash">Tree Planting</span>
+                            <!-- <h3 class=""><p>Mazungwe primary School</p></h3>                    -->
+                        <p style="background-color:#237b37;">
+                            Pupils of Raba primary school plant palm oil tree around the school compand,The project was sponsored by KACCE Team(Plant tree save the world).</p>
+                        <div class="slider-buttons">
+                             <a class="button button1" href="/tree" data-animation="animated fadeInUp">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
                <div>
                 <div class="home-slider--wrapper__inner" style="background-image: url('../img/tree/mazungwe_pupil_plant_tree.jpg')">
                     <div class="container">
-                                               <span class="dot-dash">Mazungwe primary School</span>
-                            <!-- <h3 class=""><p>Mazungwe primary School</p></h3>                    -->
+                  <span class="dot-dash">Mazungwe primary School</span>
                         <p style="background-color:#237b37">
                         KACCE team training Teachers and pupils of Mazungwe primary school how to plant and care the palm oil trees(Plant trees save the wolrd).</p>
                         <div class="slider-buttons">
@@ -154,9 +171,112 @@ background-size: 100% 100%;
                         </div>
                     </div>
                 </div>
-            </div>
+              </div>
            
-         <div>
+        
+        
+
+    <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('../img/photos/slide_05.jpg')">
+                    <div class="container">
+                  <span class="dot-dash"> Pupil from kazuramimba primary school plant</span>
+                        <p style="background-color:#237b37">
+                      Pupil from kazuramimba primary school plant guava fruit tree at home(plant tree save the World)..</p>
+                        <div class="slider-buttons">
+                             <a class="button button1" href="/tree" data-animation="animated fadeInUp">Read More</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+
+
+
+           <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('../assets/images/mazungwe_slide_01.jpg')">
+                    <div class="container">
+                                               <span class="dot-dash">Tree Planting</span>
+                            <!-- <h3 class=""><p>Mazungwe primary School</p></h3>                    -->
+                        <p style="background-color:#237b37;">
+                       KACCE with students of Mazungwe secondary school, After training the students how to plant fruit trees seedlings and how to care the small trees.The students will be the ambassador to other people in order to save the Wolrd Nature.
+                             
+                                                       <br>
+                              At this training KACCE planted fruit trees  in Mazungwe Secondary school and other trees Students were given one tree to plant and care at home..</p>
+                        <div class="slider-buttons">
+                             <a class="button button1" href="/tree" data-animation="animated fadeInUp">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+       <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('../img/photos/slide_03.jpg')">
+                    <div class="container">
+                                               <span class="dot-dash">Tree Planting</span>
+                            <!-- <h3 class=""><p>Mazungwe primary School</p></h3>                    -->
+                        <p style="background-color:#237b37;">
+                            KACCE incorporate Children in environmental Development Program in order to adapt the Activities(Plant tree save the world).</p>
+                        <div class="slider-buttons">
+                             <a class="button button1" href="/tree" data-animation="animated fadeInUp">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+          <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('../img/photos/tree-watering.jpg')">
+                    <div class="container">
+                                               <span class="dot-dash">Tree Planting</span>
+                            <!-- <h3 class=""><p>Mazungwe primary School</p></h3>                    -->
+                        <p style="background-color:#237b37;">
+                                Member of KACCE group watering and caring small trees before distributed to the community for planting(plant tree save the World).</p>
+                        <div class="slider-buttons">
+                             <a class="button button1" href="/tree" data-animation="animated fadeInUp">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!-- BEE PART -->
+           <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('../assets/images/bee_slide_02.jpg')">
+                    <div class="container">
+                                               <span class="dot-dash">Bee Keeping</span>
+                            <!-- <h3 class=""><p>Mazungwe primary School</p></h3>                    -->
+                        <p style="background-color:#237b37;">
+                       Bee keeping..</p>
+                        <div class="slider-buttons">
+                             <a class="button button1" href="/bee" data-animation="animated fadeInUp">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!-- Entrepreneurship PART -->
+           <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('../assets/images/slide_02.jpg')">
+                    <div class="container">
+                                               <span class="dot-dash">Entrepreneurship</span>
+                            <!-- <h3 class=""><p>Mazungwe primary School</p></h3>                    -->
+                        <p style="background-color:#237b37;">
+                       KACCE group share some of the profit to the community..</p>
+                        <div class="slider-buttons">
+                             <a class="button button1" href="/entrepreneur" data-animation="animated fadeInUp">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    <div>
                 <div class="home-slider--wrapper__inner" style="background-image: url('../img/vul/ch1.jpg')">
                     <div class="container">
                                                <span class="dot-dash">Vulnarable Children</span>
@@ -170,8 +290,7 @@ background-size: 100% 100%;
                 </div>
             </div>
 
-
-
+    
 
 
         </div>
@@ -183,9 +302,6 @@ background-size: 100% 100%;
             <span><i class="fa fa-anchor" aria-hidden="true"></i></span>
         </div>
     </div>
-
-
-
 
 
 

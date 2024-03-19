@@ -164,7 +164,7 @@ background-size: 100% 100%;
                 
                     <!-- First slide -->
                   
-
+<!-- 
    <div class="item active media" style="background-image: url('../img/tree/mazungwe_pupil_plant_tree.jpg');">
     <!-- <div class="item wawa" style="background-image: url('../assets/images/slide_03.jpg');min-height: 84vh !important;max-height: 100vh;background-size: 100% 100%;width: 100%;"> -->
                     <div class="container">
@@ -181,12 +181,12 @@ background-size: 100% 100%;
                     </div>
                   </div>
                 </div>
-                </div>
+                </div> -->
 
 
 
 
-                <div class="item wawa" style="background-image: url('../assets/images/mazungwe_slide_01.jpg')">
+               <!--  <div class="item wawa" style="background-image: url('../assets/images/mazungwe_slide_01.jpg')">
                     <div class="container">
                        
                        <div class="row">
@@ -207,12 +207,12 @@ background-size: 100% 100%;
 
                     </div>
                 </div>
-            
+             -->
 
 
  
 
-    <div class="item wawa" style="background-image: url('../img/photos/slide_03.jpg');">
+   <!--  <div class="item wawa" style="background-image: url('../img/photos/slide_03.jpg');">
     <!-- <div class="item wawa" style="background-image: url('../assets/images/slide_03.jpg');min-height: 84vh !important;max-height: 100vh;background-size: 100% 100%;width: 100%;"> -->
                     <div class="container">
                          <div class="row">
@@ -228,11 +228,11 @@ background-size: 100% 100%;
                     </div>
                   </div>
                 </div>
-                </div>
+                </div> -->
 
     <!-- First slide -->
 
-     <div class="item wawa" style="background-image: url('../img/tree/raba_pupil_plant_tree.jpg')">
+<!--      <div class="item wawa" style="background-image: url('../img/tree/raba_pupil_plant_tree.jpg')">
                     <div class="container">
                          <div class="row">
                         <div class="col-md-4">
@@ -247,10 +247,10 @@ background-size: 100% 100%;
                       </div>
                     </div>
                     </div>
-                </div>
+                </div> -->
 
 
-     <div class="item wawa" style="background-image: url('../img/photos/slide_05.jpg')">
+    <!--  <div class="item wawa" style="background-image: url('../img/photos/slide_05.jpg')">
                     <div class="container">
                          <div class="row">
                         <div class="col-md-4">
@@ -264,7 +264,7 @@ background-size: 100% 100%;
                       </div>
                     </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="item wawa" style="background-image: url('../img/photos/tree-watering.jpg')">
                     <div class="container">
@@ -283,7 +283,7 @@ background-size: 100% 100%;
                 </div>
 
                 <!-- Second slide -->
-                <div class="item wawa" style="background-image: url('../assets/images/bee_slide_02.jpg')">
+            <!--     <div class="item wawa" style="background-image: url('../assets/images/bee_slide_02.jpg')">
                     <div class="container">
                         <div class="row">
                         <div class="col-md-4">
@@ -298,7 +298,7 @@ background-size: 100% 100%;
                       </div>
                     </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Third slide -->
                 <div class="item wawa"  style="background-image: url('../assets/images/slide_02.jpg')">
@@ -378,9 +378,10 @@ background-size: 100% 100%;
                         </div>
                     </div>
                 </div>
-            </div>
+             </div>
            
-    <div>
+    
+          <div>
                 <div class="home-slider--wrapper__inner" style="background-image: url('../img/vul/ch1.jpg')">
                     <div class="container">
                                                <span class="dot-dash">Vulnarable Children</span>

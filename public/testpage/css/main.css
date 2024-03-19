@@ -1324,7 +1324,7 @@ Slider
         text-transform: uppercase; }
       .home-slider--wrapper__inner .container p {
         font: 400 14px/24px "Open Sans";
-        margin: 0 auto 70px auto;
+        margin: 0 auto 4px auto;
         max-width: 600px;
         color: #eff439; }
   .home-slider--anchor {
