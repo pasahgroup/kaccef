@@ -10,7 +10,7 @@
     <link href="../../testpage/css/main.css" rel="stylesheet" />
 
 
-<style>
+<!-- <style>
 .button {
   background-color: #04AA6D; /* Green */
   border: none;
@@ -54,7 +54,7 @@
   border: 2px solid #555555;
 }
 </style>
-
+ -->
 
 
 

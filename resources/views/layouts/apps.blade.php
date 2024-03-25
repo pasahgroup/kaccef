@@ -49,6 +49,7 @@
 
 
     <link rel="stylesheet" href="../../assets/css/templatemo-finance-business.css">
+      <link href="../../testpage/css/main.css" rel="stylesheet" />
   <!-- Theme styles END -->
 </head>
 <!-- Head END -->
@@ -238,6 +239,13 @@
               <li><a href="img/reports/S-URT-Environmental_Management_Act_2004.pdf" target="_blank">Sheria ya usimamizi wa mazingira ya mwaka 2004 Na.20: Download</a></li>
                   </ul>
                                    <a href="/donate" class="btn border-button btn-primary">Donate</a>
+
+
+
+<ul class="menu-list">
+  <br>
+              <li><a href="https://kacce.or.tz:2096/logout?" target="_blank">Web mail</a></li>
+                  </ul>
 
                  
           </div>
